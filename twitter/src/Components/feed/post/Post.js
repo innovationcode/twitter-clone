@@ -26,7 +26,7 @@ const Post = ({
                     <div className = "post__body__headerText">
                         <h3>
                             L{''}
-                            <span>
+                            <span className="post__body__headerSpecial">
                                 <VerifiedUserIcon className = "post__badge" /> @L
                             </span>
                         </h3>
