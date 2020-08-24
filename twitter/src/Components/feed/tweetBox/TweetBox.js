@@ -1,4 +1,5 @@
 import React from 'react';
+import Post from '../post/Post.js';
 import { Avatar, Button } from '@material-ui/core';
 
 import './TweetBox.css';
