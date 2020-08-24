@@ -1,6 +1,10 @@
 import React from 'react';
 import { Avatar } from '@material-ui/core';
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
+import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
+import RepeatIcon from "@material-ui/icons/Repeat";
+import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
+import PublishIcon from "@material-ui/icons/Publish";
 
 import './Post.css';
 
@@ -23,10 +27,22 @@ const Post = ({
                         <h3>
                             L{''}
                             <span>
-                                <VerifiedUserIcon className = "post__badge" />
+                                <VerifiedUserIcon className = "post__badge" /> @L
                             </span>
                         </h3>
                     </div>
+
+                    <div className = "post__body__headerDescription">
+                        <p>Build a Twitter clone</p>
+                    </div>
+                </div>
+                {/* header end ................ */}
+                <img src = "https://media.giphy.com/media/CUBWkGBq3GL1C/giphy.gif" alt = ""/>
+                <div className = "post__footer">
+                    <ChatBubbleOutlineIcon fontSize="small" />
+                    <RepeatIcon fontSize="small" />
+                    <FavoriteBorderIcon fontSize="small" />
+                    <PublishIcon fontSize="small" />
                 </div>
             </div>
         </div>
